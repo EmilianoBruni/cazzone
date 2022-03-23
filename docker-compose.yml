@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  big:
+    image: cazzone
+    restart: always
+    ports:
+      - 80:80
